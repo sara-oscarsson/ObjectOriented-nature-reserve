@@ -8,10 +8,10 @@
 </head>
 <body>
     <h3>Create your own Nature Reserve:</h3>
-    <form action="" method="post">
+    <form action="results.php" method="post">
+    <input type="number" placeholder= "Number of lions" name="lion" id="">
     <input type="number" placeholder= "Number of giraffes" name="giraffe" id="">
     <input type="number" placeholder= "Number of turtles" name="turtle" id="">
-    <input type="number" placeholder= "Number of lions" name="lion" id="">
     <button type="submit">Create</button> 
     </form>
     
