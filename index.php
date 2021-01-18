@@ -6,8 +6,8 @@
     <title>Nature reserve</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h3>Create your own Nature Reserve:</h3>
+<body class="form">
+    <h3>Create your own Nature reserve:</h3>
     <form action="results.php" method="post">
     <input type="number" placeholder= "Number of lions" name="lion" id="">
     <input type="number" placeholder= "Number of giraffes" name="giraffe" id="">
